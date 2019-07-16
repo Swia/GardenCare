@@ -80,7 +80,10 @@ void somefunction()
   digitalWrite(relay4, relayState4);
   //delay(500);
   if ( scenario1 > 0) {
-   
+    digitalWrite(relay2, 0);
+    digitalWrite(relay2, 1);
+    delay(500);
+    
   }
 
 
