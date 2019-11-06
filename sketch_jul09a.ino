@@ -31,8 +31,6 @@ WidgetLED led4(27); //virtual led4
 
 void setup() {
   Serial.begin(115200); // See the connection status in Serial Monitor
-  //Blynk.begin(auth, "MikroTik2,4", "max48234823");
-  //Blynk.begin(auth, "Home314_2.4", "20192019"); //insert here your SSID and password
   Blynk.begin(auth, "iPhone", "11223344");
   mytimer.setInterval(2000L, somefunction);
 
